@@ -1,0 +1,18 @@
+{
+	"name" : "typecaster",
+	"description" : "Simple typecasting system with uniformity for casting data to different native types with ability to add custom types",
+	"author" : "Owen Allen <owenallenaz@gmail.com>",
+	"version" : "0.0.1",
+	"devDependencies" : {
+		"mocha" : "*"
+	},
+	"engines" : { "node" : ">=0.10.x" },
+	"scripts" : {
+		"test" : "mocha --debug $(find testing/ -name *.test.js) -R spec --colors --check-leaks"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/simpleviewinc/typecaster.git"
+	},
+	"license" : "MIT"
+}
