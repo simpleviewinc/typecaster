@@ -108,6 +108,10 @@ define(function(require, exports, module) {
 	TypeCaster.prototype.convert = function(data, type) {
 		var self = this;
 		
+		if (data === undefined) {
+			return;
+		}
+		
 		var caster = self._types[type];
 		if (caster === undefined) {
 			throw new Error("Cannot convert, '" + type + "' is not a supported conversion type");

@@ -2,7 +2,7 @@
 	"name" : "typecaster",
 	"description" : "Simple typecasting system with uniformity for casting data to different native types with ability to add custom types",
 	"author" : "Owen Allen <owenallenaz@gmail.com>",
-	"version" : "0.0.1",
+	"version" : "0.0.2",
 	"devDependencies" : {
 		"mocha" : "*"
 	},
